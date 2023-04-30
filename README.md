@@ -12,7 +12,7 @@ Používatelia tejto stránky môžu:
 
 Po kliknutí na kruh s hviezdičkou sa zobrazí môj predchádzajúci projekt zo stránky [Frontend Mentor](https://www.frontendmentor.io/solutions/my-version-article-preview-component-zB4uukJR93).
 
-<!-- #### [Odkaz na hotovú stránku](https://tomasdunik.github.io/frontend-mentor-newbie-equalizer-landing-page/) -->
+#### [Odkaz na hotovú stránku](https://tomasdunik.github.io/frontend-mentor__interactive-rating-component/)
 
 <br/>
 
@@ -47,5 +47,5 @@ Projekt som vytvoril približne za 4 hodiny (čas od stiahnutia projektu až po 
 
 ## 🔗 Projekty Frontend Mentor
 
-<!-- - [Tento konkrétny projekt na stránke Frontend Mentor](https://www.frontendmentor.io/solutions/equalizer-landing-page-WPZNnYpwXg)
-- [Moje ostatné projekty na stránke Frontend Mentor](https://www.frontendmentor.io/profile/WeekendsProgrammer) -->
+- [Tento konkrétny projekt na stránke Frontend Mentor](https://www.frontendmentor.io/solutions/my-version-interactive-rating-component-aRiFGLiZ12)
+- [Moje ostatné projekty na stránke Frontend Mentor](https://www.frontendmentor.io/profile/WeekendsProgrammer)

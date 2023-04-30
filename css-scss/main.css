@@ -69,8 +69,8 @@
 
 .button {
   background-color: #fb7413;
-  border: none;
   border-radius: 22.5px;
+  border: none;
   color: #ffffff;
   cursor: pointer;
   font-family: inherit;
@@ -79,6 +79,7 @@
   letter-spacing: 0.1333333333em;
   line-height: 1.2666666667;
   padding: 1.2rem 13.8rem 1.2rem 13.8rem;
+  width: 100%;
   text-transform: uppercase;
   transition: all 0.1s;
 }
@@ -170,4 +171,4 @@
     font-size: 1.4rem;
     line-height: 1.5714285714;
   }
-} /*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
