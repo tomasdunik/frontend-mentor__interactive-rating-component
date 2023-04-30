@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <!--————————————————————— METADATA ————————————————————-->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Táto webová stránka je vytvorená podľa grafickej predlohy zo stránky Frontend Mentor."
+    />
+
+    <!--————————————————————— TITLE ——————————————————————-->
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!--———————————————————— FAVICON —————————————————————-->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!--————————————————————— FONT ———————————————————————-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--————————————————————— CSS ————————————————————————-->
+    <link rel="stylesheet" href="./css-scss/general.css" />
+    <link rel="stylesheet" href="./css-scss/main.css" />
+
+    <!--————————————————————— SCRIPT —————————————————————-->
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="website">
+      <main class="main">
+        <!-- ============================ -->
+        <!--  Section - Rating  -->
+        <!-- ============================ -->
+        <section class="section-rating">
+          <a
+            href="https://tomasdunik.github.io/frontend-mentor__article-preview-component/"
+          >
+            <div class="icon-star">
+              <img src="./images/icon-star.svg" alt="icon star" /></div
+          ></a>
+          <h1 class="heading">Ako nás ohodnotíte?</h1>
+          <p class="description">
+            Dajte nám vedieť, ako sme spracovali Vašu žiadosť! Najväčšiu
+            spokojnosť s našou odpoveďou predstavuje číslo 5.
+          </p>
+          <form class="rating-numbers" method="post">
+            <div id="rating-number-1" class="rating-number">1</div>
+            <div id="rating-number-2" class="rating-number">2</div>
+            <div id="rating-number-3" class="rating-number">3</div>
+            <div id="rating-number-4" class="rating-number">4</div>
+            <div id="rating-number-5" class="rating-number">5</div>
+          </form>
+          <button id="button" class="button" type="submit">Odoslať</button>
+        </section>
+
+        <!-- ============================ -->
+        <!--  Section - Thanks  -->
+        <!-- ============================ -->
+        <section class="section-thanks hidden">
+          <img
+            class="img-thanks"
+            src="./images/illustration-thank-you.svg"
+            alt="mobile picture"
+          />
+          <div class="selection-result">
+            Vybrali ste číslo <span id="selected-rating"></span> z 5
+          </div>
+          <h1 class="heading">Ďakujeme!</h1>
+          <p class="description-thanks">
+            Ceníme si, že ste si našli čas na hodnotenie. Ak niekedy budete mať
+            ďalšie otázky, neváhajte nás kontaktovať!
+          </p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
